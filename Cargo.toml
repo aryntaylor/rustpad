@@ -7,3 +7,7 @@ edition = "2021"
 
 [dependencies]
 gtk = { version = "0.7.3", package = "gtk4", features = ["v4_12"] }
+
+[[bin]]
+name = "rustpad_app"
+path = "src/rustpad_app.rs"
